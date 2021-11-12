@@ -1,1 +1,2 @@
 This is main file:
+This new line has been added for FEATURE

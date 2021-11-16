@@ -3,6 +3,8 @@
 use Illuminate\Support\Facades\Route;
 // use app\Http\Controllers\HelloController;
 use App\Http\Controllers\HelloController;
+use App\Http\Controllers\UserController;
+
 // why app is not working and App is working here but actual folder name is app with a in lower case
 /*
 |--------------------------------------------------------------------------
@@ -21,3 +23,6 @@ Route::get('/', function () {
 //Route::get('hello', 'HelloController@index');
 
 Route::get('/hellos', [HelloController::class,'index']);
+Route::get('/users', [UserController::class,'index']);
+
+
